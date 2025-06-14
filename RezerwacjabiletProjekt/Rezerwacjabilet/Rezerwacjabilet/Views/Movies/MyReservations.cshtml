@@ -1,0 +1,40 @@
+﻿@model List<Rezerwacjabilet.Models.UserReservation>
+
+@{
+    ViewData["Title"] = "Moje rezerwacje";
+}
+
+<h2>Moje rezerwacje</h2>
+
+@if (!Model.Any())
+{
+    <p>Nie masz jeszcze żadnych rezerwacji.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Tytuł</th>
+                <th>Data</th>
+                <th>Godzina</th>
+                <th>Zarezerwowane miejsca</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var res in Model)
+            {
+                <tr>
+                    <td>@res.Tytul</td>
+                    <td>@res.Data</td>
+                    <td>@res.Godzina</td>
+                    <td>@string.Join(", ", res.Miejsca)</td>
+                </tr>
+            <td>
+                <a href="@Url.Action("CancelReservation", "Movies", new { filmId = res.Tytul })" class="btn btn-danger">Anuluj</a>
+                <a href="@Url.Action("ModifyReservation", "Movies", new { filmId = res.Tytul })" class="btn btn-primary">Zmień miejsca</a>
+            </td>
+            }
+        </tbody>
+    </table>
+}

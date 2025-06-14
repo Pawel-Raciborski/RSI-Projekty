@@ -1,0 +1,14 @@
+﻿@model ServiceReference1.Film
+
+<h2>Zmiana rezerwacji dla filmu: @Model.tytul</h2>
+
+<form method="post" action="@Url.Action("UpdateReservation", "Movies")">
+    <input type="hidden" name="filmId" value="@Model.tytul" />
+    <select name="selectedSeats" multiple size="5" class="form-control">
+        @foreach (var seat in Model.miejsca)
+        {
+            <option value="@seat">@seat</option>
+        }
+    </select>
+    <button type="submit" class="btn btn-success mt-2">Zaktualizuj rezerwację</button>
+</form>

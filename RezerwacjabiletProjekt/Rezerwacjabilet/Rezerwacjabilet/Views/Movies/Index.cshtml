@@ -1,0 +1,82 @@
+﻿@model ServiceReference1.Film[]
+
+<div class="text-end mb-3">
+    <a href="@Url.Action("MyReservations", "Movies")" class="btn btn-primary">
+        Moje rezerwacje
+    </a>
+</div>
+
+@{
+    ViewData["Title"] = "Lista Filmów";
+}
+
+@if (TempData["ReservationMessage"] != null)
+{
+    <div class="alert alert-info">
+        @TempData["ReservationMessage"]
+    </div>
+}
+
+<h2>Lista Filmów</h2>
+
+@if (Model == null || Model.Length == 0)
+{
+    <p>Brak dostępnych filmów.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Zdjęcie</th>
+                <th>Tytuł</th>
+                <th>Data</th>
+                <th>Godzina</th>
+                <th>Dostępne miejsca</th>
+                <th>Rezerwacja</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var film in Model)
+            {
+                <tr>
+                    <td>
+                        @{
+                            string imgSrc = null;
+                            if (film.zdjecie != null && film.zdjecie.Length > 0)
+                            {
+                                var base64 = Convert.ToBase64String(film.zdjecie);
+                                imgSrc = $"data:image/jpeg;base64,{base64}";
+                            }
+                        }
+                        @if (imgSrc != null)
+                        {
+                            <img src="@imgSrc" alt="Zdjęcie filmu" style="max-width: 150px;" />
+                        }
+
+                        else
+                        {
+                            <span>Brak zdjęcia</span>
+                        }
+                    </td>
+                    <td>@film.tytul</td>
+                    <td>@film.data</td>
+                    <td>@film.godzina</td>
+                    <td>
+                        @if (film.miejsca.Length == 0)
+                        {
+                            <span>Brak miejsc</span>
+                        }
+                        else
+                        {
+                            <span>@string.Join(", ", film.miejsca)</span>
+                        }
+                    </td>
+                    <td>
+                        <a href="@Url.Action("Reserve", "Movies", new { filmId = film.tytul })" class="btn btn-primary">Zarezerwuj</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
