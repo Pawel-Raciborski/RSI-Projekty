@@ -1,0 +1,22 @@
+﻿@model Rezerwacjabilet.Models.ModifyReservationViewModel
+
+<h2>Modyfikuj rezerwację dla filmu @Model.FilmTitle</h2>
+
+<form asp-action="ModifyReservation" method="post">
+    <input type="hidden" asp-for="FilmId" />
+
+    <h4>Twoje aktualne miejsca:</h4>
+    <p>@string.Join(", ", Model.ReservedSeats)</p>
+
+    <h4>Wybierz nowe miejsca:</h4>
+    @foreach (var seat in Model.AvailableSeats)
+    {
+        <div>
+            <input type="checkbox" name="SelectedSeats" value="@seat"
+            @(Model.ReservedSeats.Contains(seat) ? "checked" : "") />
+            <label>@seat</label>
+        </div>
+    }
+
+    <button type="submit">Zapisz zmiany</button>
+</form>

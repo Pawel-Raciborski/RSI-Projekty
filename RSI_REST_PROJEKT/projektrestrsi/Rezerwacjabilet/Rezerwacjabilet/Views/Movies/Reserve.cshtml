@@ -1,0 +1,34 @@
+﻿@model Rezerwacjabilet.Models.FilmViewModel
+
+@{
+    ViewData["Title"] = "Rezerwacja miejsca";
+}
+
+<h2>Rezerwacja dla filmu: @Model.tytul</h2>
+
+@if (TempData["ReservationMessage"] != null)
+{
+    <div class="alert alert-info">
+        @TempData["ReservationMessage"]
+    </div>
+}
+
+<h4>Wybierz miejsca:</h4>
+
+@if (Model.miejsca.Length == 0)
+{
+    <p class="text-danger">Brak dostępnych miejsc.</p>
+}
+else
+{
+    <form method="post" action="@Url.Action("ConfirmReservation", "Movies")">
+        <input type="hidden" name="filmId" value="@Model.tytul" />
+        <select name="selectedSeats" multiple size="5" class="form-control">
+            @foreach (var seat in Model.miejsca)
+            {
+                <option value="@seat">@seat</option>
+            }
+        </select>
+        <button type="submit" class="btn btn-success mt-2">Potwierdź rezerwację</button>
+    </form>
+}

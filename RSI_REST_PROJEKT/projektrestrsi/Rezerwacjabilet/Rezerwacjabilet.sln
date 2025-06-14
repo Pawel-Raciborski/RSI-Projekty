@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rezerwacjabilet", "Rezerwacjabilet\Rezerwacjabilet.csproj", "{1039039C-CC47-4CDC-A287-A45662DB8A6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1039039C-CC47-4CDC-A287-A45662DB8A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1039039C-CC47-4CDC-A287-A45662DB8A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1039039C-CC47-4CDC-A287-A45662DB8A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1039039C-CC47-4CDC-A287-A45662DB8A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50DEF912-E0EB-41A6-8A07-A10DFDFD4831}
+	EndGlobalSection
+EndGlobal

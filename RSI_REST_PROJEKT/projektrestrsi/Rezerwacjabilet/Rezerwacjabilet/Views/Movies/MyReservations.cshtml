@@ -1,0 +1,32 @@
+﻿@model List<Rezerwacjabilet.Models.UserReservation>
+
+<h2>Twoje rezerwacje</h2>
+
+@if (Model.Any())
+{
+    <ul>
+        @foreach (var reservation in Model)
+        {
+            <li>
+                <strong>@reservation.Tytul</strong><br />
+                Miejsca: @(reservation.Miejsca != null ? string.Join(", ", reservation.Miejsca) : "Brak miejsc")<br />
+                @Html.AntiForgeryToken()
+                <form asp-controller="Movies" asp-action="CancelReservation" method="post" style="display:inline">
+                    <input type="hidden" name="filmTitle" value="@reservation.Tytul" />
+                    <button type="submit">Anuluj</button>
+                </form>
+
+
+
+                <form asp-action="ModifyReservation" method="get" style="display:inline; margin-left:10px;">
+                    <input type="hidden" name="filmId" value="@reservation.Tytul" />
+                    <button type="submit">Modyfikuj</button>
+                </form>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>Brak rezerwacji.</p>
+}

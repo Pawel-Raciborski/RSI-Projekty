@@ -1,0 +1,232 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pawel\\OneDrive\\Pulpit\\StudiaPB\\RSI\\RSI_REST_PROJEKT\\projektrestrsi\\Rezerwacjabilet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1039039C-CC47-4CDC-A287-A45662DB8A6A}|Rezerwacjabilet\\Rezerwacjabilet.csproj|c:\\users\\pawel\\onedrive\\pulpit\\studiapb\\rsi\\rsi_rest_projekt\\projektrestrsi\\rezerwacjabilet\\rezerwacjabilet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1039039C-CC47-4CDC-A287-A45662DB8A6A}|Rezerwacjabilet\\Rezerwacjabilet.csproj|solutionrelative:rezerwacjabilet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1039039C-CC47-4CDC-A287-A45662DB8A6A}|Rezerwacjabilet\\Rezerwacjabilet.csproj|c:\\users\\pawel\\onedrive\\pulpit\\studiapb\\rsi\\rsi_rest_projekt\\projektrestrsi\\rezerwacjabilet\\rezerwacjabilet\\helpers\\javabackendclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1039039C-CC47-4CDC-A287-A45662DB8A6A}|Rezerwacjabilet\\Rezerwacjabilet.csproj|solutionrelative:rezerwacjabilet\\helpers\\javabackendclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1039039C-CC47-4CDC-A287-A45662DB8A6A}|Rezerwacjabilet\\Rezerwacjabilet.csproj|c:\\users\\pawel\\onedrive\\pulpit\\studiapb\\rsi\\rsi_rest_projekt\\projektrestrsi\\rezerwacjabilet\\rezerwacjabilet\\helpers\\pdfgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1039039C-CC47-4CDC-A287-A45662DB8A6A}|Rezerwacjabilet\\Rezerwacjabilet.csproj|solutionrelative:rezerwacjabilet\\helpers\\pdfgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1039039C-CC47-4CDC-A287-A45662DB8A6A}|Rezerwacjabilet\\Rezerwacjabilet.csproj|c:\\users\\pawel\\onedrive\\pulpit\\studiapb\\rsi\\rsi_rest_projekt\\projektrestrsi\\rezerwacjabilet\\rezerwacjabilet\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1039039C-CC47-4CDC-A287-A45662DB8A6A}|Rezerwacjabilet\\Rezerwacjabilet.csproj|solutionrelative:rezerwacjabilet\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1039039C-CC47-4CDC-A287-A45662DB8A6A}|Rezerwacjabilet\\Rezerwacjabilet.csproj|c:\\users\\pawel\\onedrive\\pulpit\\studiapb\\rsi\\rsi_rest_projekt\\projektrestrsi\\rezerwacjabilet\\rezerwacjabilet\\views\\movies\\myreservations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1039039C-CC47-4CDC-A287-A45662DB8A6A}|Rezerwacjabilet\\Rezerwacjabilet.csproj|solutionrelative:rezerwacjabilet\\views\\movies\\myreservations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1039039C-CC47-4CDC-A287-A45662DB8A6A}|Rezerwacjabilet\\Rezerwacjabilet.csproj|c:\\users\\pawel\\onedrive\\pulpit\\studiapb\\rsi\\rsi_rest_projekt\\projektrestrsi\\rezerwacjabilet\\rezerwacjabilet\\models\\userreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1039039C-CC47-4CDC-A287-A45662DB8A6A}|Rezerwacjabilet\\Rezerwacjabilet.csproj|solutionrelative:rezerwacjabilet\\models\\userreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1039039C-CC47-4CDC-A287-A45662DB8A6A}|Rezerwacjabilet\\Rezerwacjabilet.csproj|c:\\users\\pawel\\onedrive\\pulpit\\studiapb\\rsi\\rsi_rest_projekt\\projektrestrsi\\rezerwacjabilet\\rezerwacjabilet\\models\\modifyreservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1039039C-CC47-4CDC-A287-A45662DB8A6A}|Rezerwacjabilet\\Rezerwacjabilet.csproj|solutionrelative:rezerwacjabilet\\models\\modifyreservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1039039C-CC47-4CDC-A287-A45662DB8A6A}|Rezerwacjabilet\\Rezerwacjabilet.csproj|c:\\users\\pawel\\onedrive\\pulpit\\studiapb\\rsi\\rsi_rest_projekt\\projektrestrsi\\rezerwacjabilet\\rezerwacjabilet\\models\\filmviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1039039C-CC47-4CDC-A287-A45662DB8A6A}|Rezerwacjabilet\\Rezerwacjabilet.csproj|solutionrelative:rezerwacjabilet\\models\\filmviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1039039C-CC47-4CDC-A287-A45662DB8A6A}|Rezerwacjabilet\\Rezerwacjabilet.csproj|c:\\users\\pawel\\onedrive\\pulpit\\studiapb\\rsi\\rsi_rest_projekt\\projektrestrsi\\rezerwacjabilet\\rezerwacjabilet\\views\\movies\\modifyreservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1039039C-CC47-4CDC-A287-A45662DB8A6A}|Rezerwacjabilet\\Rezerwacjabilet.csproj|solutionrelative:rezerwacjabilet\\views\\movies\\modifyreservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1039039C-CC47-4CDC-A287-A45662DB8A6A}|Rezerwacjabilet\\Rezerwacjabilet.csproj|c:\\users\\pawel\\onedrive\\pulpit\\studiapb\\rsi\\rsi_rest_projekt\\projektrestrsi\\rezerwacjabilet\\rezerwacjabilet\\views\\movies\\reserve.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1039039C-CC47-4CDC-A287-A45662DB8A6A}|Rezerwacjabilet\\Rezerwacjabilet.csproj|solutionrelative:rezerwacjabilet\\views\\movies\\reserve.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1039039C-CC47-4CDC-A287-A45662DB8A6A}|Rezerwacjabilet\\Rezerwacjabilet.csproj|c:\\users\\pawel\\onedrive\\pulpit\\studiapb\\rsi\\rsi_rest_projekt\\projektrestrsi\\rezerwacjabilet\\rezerwacjabilet\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1039039C-CC47-4CDC-A287-A45662DB8A6A}|Rezerwacjabilet\\Rezerwacjabilet.csproj|solutionrelative:rezerwacjabilet\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1039039C-CC47-4CDC-A287-A45662DB8A6A}|Rezerwacjabilet\\Rezerwacjabilet.csproj|c:\\users\\pawel\\onedrive\\pulpit\\studiapb\\rsi\\rsi_rest_projekt\\projektrestrsi\\rezerwacjabilet\\rezerwacjabilet\\wwwroot\\incepcja.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{1039039C-CC47-4CDC-A287-A45662DB8A6A}|Rezerwacjabilet\\Rezerwacjabilet.csproj|solutionrelative:rezerwacjabilet\\wwwroot\\incepcja.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1039039C-CC47-4CDC-A287-A45662DB8A6A}|Rezerwacjabilet\\Rezerwacjabilet.csproj|c:\\users\\pawel\\onedrive\\pulpit\\studiapb\\rsi\\rsi_rest_projekt\\projektrestrsi\\rezerwacjabilet\\rezerwacjabilet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1039039C-CC47-4CDC-A287-A45662DB8A6A}|Rezerwacjabilet\\Rezerwacjabilet.csproj|solutionrelative:rezerwacjabilet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FilmViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\OneDrive\\Pulpit\\StudiaPB\\RSI\\RSI_REST_PROJEKT\\projektrestrsi\\Rezerwacjabilet\\Rezerwacjabilet\\Models\\FilmViewModel.cs",
+              "RelativeDocumentMoniker": "Rezerwacjabilet\\Models\\FilmViewModel.cs",
+              "ToolTip": "C:\\Users\\pawel\\OneDrive\\Pulpit\\StudiaPB\\RSI\\RSI_REST_PROJEKT\\projektrestrsi\\Rezerwacjabilet\\Rezerwacjabilet\\Models\\FilmViewModel.cs",
+              "RelativeToolTip": "Rezerwacjabilet\\Models\\FilmViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T06:41:57.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyReservations.cshtml",
+              "DocumentMoniker": "C:\\Users\\pawel\\OneDrive\\Pulpit\\StudiaPB\\RSI\\RSI_REST_PROJEKT\\projektrestrsi\\Rezerwacjabilet\\Rezerwacjabilet\\Views\\Movies\\MyReservations.cshtml",
+              "RelativeDocumentMoniker": "Rezerwacjabilet\\Views\\Movies\\MyReservations.cshtml",
+              "ToolTip": "C:\\Users\\pawel\\OneDrive\\Pulpit\\StudiaPB\\RSI\\RSI_REST_PROJEKT\\projektrestrsi\\Rezerwacjabilet\\Rezerwacjabilet\\Views\\Movies\\MyReservations.cshtml",
+              "RelativeToolTip": "Rezerwacjabilet\\Views\\Movies\\MyReservations.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T15:30:07.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserReservation.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\OneDrive\\Pulpit\\StudiaPB\\RSI\\RSI_REST_PROJEKT\\projektrestrsi\\Rezerwacjabilet\\Rezerwacjabilet\\Models\\UserReservation.cs",
+              "RelativeDocumentMoniker": "Rezerwacjabilet\\Models\\UserReservation.cs",
+              "ToolTip": "C:\\Users\\pawel\\OneDrive\\Pulpit\\StudiaPB\\RSI\\RSI_REST_PROJEKT\\projektrestrsi\\Rezerwacjabilet\\Rezerwacjabilet\\Models\\UserReservation.cs",
+              "RelativeToolTip": "Rezerwacjabilet\\Models\\UserReservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T15:31:56.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JavaBackendClient.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\OneDrive\\Pulpit\\StudiaPB\\RSI\\RSI_REST_PROJEKT\\projektrestrsi\\Rezerwacjabilet\\Rezerwacjabilet\\Helpers\\JavaBackendClient.cs",
+              "RelativeDocumentMoniker": "Rezerwacjabilet\\Helpers\\JavaBackendClient.cs",
+              "ToolTip": "C:\\Users\\pawel\\OneDrive\\Pulpit\\StudiaPB\\RSI\\RSI_REST_PROJEKT\\projektrestrsi\\Rezerwacjabilet\\Rezerwacjabilet\\Helpers\\JavaBackendClient.cs",
+              "RelativeToolTip": "Rezerwacjabilet\\Helpers\\JavaBackendClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T12:37:57.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\OneDrive\\Pulpit\\StudiaPB\\RSI\\RSI_REST_PROJEKT\\projektrestrsi\\Rezerwacjabilet\\Rezerwacjabilet\\Program.cs",
+              "RelativeDocumentMoniker": "Rezerwacjabilet\\Program.cs",
+              "ToolTip": "C:\\Users\\pawel\\OneDrive\\Pulpit\\StudiaPB\\RSI\\RSI_REST_PROJEKT\\projektrestrsi\\Rezerwacjabilet\\Rezerwacjabilet\\Program.cs",
+              "RelativeToolTip": "Rezerwacjabilet\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T15:14:18.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\OneDrive\\Pulpit\\StudiaPB\\RSI\\RSI_REST_PROJEKT\\projektrestrsi\\Rezerwacjabilet\\Rezerwacjabilet\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "Rezerwacjabilet\\Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\Users\\pawel\\OneDrive\\Pulpit\\StudiaPB\\RSI\\RSI_REST_PROJEKT\\projektrestrsi\\Rezerwacjabilet\\Rezerwacjabilet\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "Rezerwacjabilet\\Controllers\\MoviesController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T12:22:42.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PDFGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\OneDrive\\Pulpit\\StudiaPB\\RSI\\RSI_REST_PROJEKT\\projektrestrsi\\Rezerwacjabilet\\Rezerwacjabilet\\Helpers\\PDFGenerator.cs",
+              "RelativeDocumentMoniker": "Rezerwacjabilet\\Helpers\\PDFGenerator.cs",
+              "ToolTip": "C:\\Users\\pawel\\OneDrive\\Pulpit\\StudiaPB\\RSI\\RSI_REST_PROJEKT\\projektrestrsi\\Rezerwacjabilet\\Rezerwacjabilet\\Helpers\\PDFGenerator.cs",
+              "RelativeToolTip": "Rezerwacjabilet\\Helpers\\PDFGenerator.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T13:08:22.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Reserve.cshtml",
+              "DocumentMoniker": "C:\\Users\\pawel\\OneDrive\\Pulpit\\StudiaPB\\RSI\\RSI_REST_PROJEKT\\projektrestrsi\\Rezerwacjabilet\\Rezerwacjabilet\\Views\\Movies\\Reserve.cshtml",
+              "RelativeDocumentMoniker": "Rezerwacjabilet\\Views\\Movies\\Reserve.cshtml",
+              "ToolTip": "C:\\Users\\pawel\\OneDrive\\Pulpit\\StudiaPB\\RSI\\RSI_REST_PROJEKT\\projektrestrsi\\Rezerwacjabilet\\Rezerwacjabilet\\Views\\Movies\\Reserve.cshtml",
+              "RelativeToolTip": "Rezerwacjabilet\\Views\\Movies\\Reserve.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T13:08:46.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ModifyReservation.cshtml",
+              "DocumentMoniker": "C:\\Users\\pawel\\OneDrive\\Pulpit\\StudiaPB\\RSI\\RSI_REST_PROJEKT\\projektrestrsi\\Rezerwacjabilet\\Rezerwacjabilet\\Views\\Movies\\ModifyReservation.cshtml",
+              "RelativeDocumentMoniker": "Rezerwacjabilet\\Views\\Movies\\ModifyReservation.cshtml",
+              "ToolTip": "C:\\Users\\pawel\\OneDrive\\Pulpit\\StudiaPB\\RSI\\RSI_REST_PROJEKT\\projektrestrsi\\Rezerwacjabilet\\Rezerwacjabilet\\Views\\Movies\\ModifyReservation.cshtml",
+              "RelativeToolTip": "Rezerwacjabilet\\Views\\Movies\\ModifyReservation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T13:08:40.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ModifyReservationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\OneDrive\\Pulpit\\StudiaPB\\RSI\\RSI_REST_PROJEKT\\projektrestrsi\\Rezerwacjabilet\\Rezerwacjabilet\\Models\\ModifyReservationViewModel.cs",
+              "RelativeDocumentMoniker": "Rezerwacjabilet\\Models\\ModifyReservationViewModel.cs",
+              "ToolTip": "C:\\Users\\pawel\\OneDrive\\Pulpit\\StudiaPB\\RSI\\RSI_REST_PROJEKT\\projektrestrsi\\Rezerwacjabilet\\Rezerwacjabilet\\Models\\ModifyReservationViewModel.cs",
+              "RelativeToolTip": "Rezerwacjabilet\\Models\\ModifyReservationViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T06:41:35.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\pawel\\OneDrive\\Pulpit\\StudiaPB\\RSI\\RSI_REST_PROJEKT\\projektrestrsi\\Rezerwacjabilet\\Rezerwacjabilet\\Views\\Movies\\Index.cshtml",
+              "RelativeDocumentMoniker": "Rezerwacjabilet\\Views\\Movies\\Index.cshtml",
+              "ToolTip": "C:\\Users\\pawel\\OneDrive\\Pulpit\\StudiaPB\\RSI\\RSI_REST_PROJEKT\\projektrestrsi\\Rezerwacjabilet\\Rezerwacjabilet\\Views\\Movies\\Index.cshtml",
+              "RelativeToolTip": "Rezerwacjabilet\\Views\\Movies\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T14:36:39.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\pawel\\OneDrive\\Pulpit\\StudiaPB\\RSI\\RSI_REST_PROJEKT\\projektrestrsi\\Rezerwacjabilet\\Rezerwacjabilet\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Rezerwacjabilet\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\pawel\\OneDrive\\Pulpit\\StudiaPB\\RSI\\RSI_REST_PROJEKT\\projektrestrsi\\Rezerwacjabilet\\Rezerwacjabilet\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Rezerwacjabilet\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T13:08:17.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "incepcja.jpg - Bitmap [1920x2560, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\pawel\\OneDrive\\Pulpit\\StudiaPB\\RSI\\RSI_REST_PROJEKT\\projektrestrsi\\Rezerwacjabilet\\Rezerwacjabilet\\wwwroot\\incepcja.jpg",
+              "RelativeDocumentMoniker": "Rezerwacjabilet\\wwwroot\\incepcja.jpg",
+              "ToolTip": "C:\\Users\\pawel\\OneDrive\\Pulpit\\StudiaPB\\RSI\\RSI_REST_PROJEKT\\projektrestrsi\\Rezerwacjabilet\\Rezerwacjabilet\\wwwroot\\incepcja.jpg - Bitmap [1920x2560, 24 bit, JPG]",
+              "RelativeToolTip": "Rezerwacjabilet\\wwwroot\\incepcja.jpg - Bitmap [1920x2560, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-05-23T06:44:07.763Z",
+              "EditorCaption": " - Bitmap [1920x2560, 24 bit, JPG]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
